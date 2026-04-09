@@ -27,8 +27,7 @@ Austin Bartram, Colby Allen
 
 ### 2 - Why does the ring counter's output go to all 1s on the first clock cycle?
 
-* In our ripple counter, since all three T flip-flops start at 0 and each stage is clocked by the previous stage’s output, the first rising edge can ripple through the chain and toggle each stage from 0 to 1, so the visible state becomes `111`.
-* 
+* In our ripple counter, since all three T flip-flops start at 0 and each stage is clocked by the previous stage’s output, the first rising edge can ripple through the chain and toggle each stage from 0 to 1, so the visible state becomes 111.
 
 ### 3 - What width of ring counter would you use to get to an output of \~1KHz?
 
