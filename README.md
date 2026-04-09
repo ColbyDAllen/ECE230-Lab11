@@ -31,5 +31,5 @@ Austin Bartram, Colby Allen
 
 ### 3 - What width of ring counter would you use to get to an output of \~1KHz?
 
-* For a ripple counter, each stage divides the input clock by 2, so the output frequency is `100 MHz / 2^N`. Solving for about 1 kHz gives N = log\_2(100,000,000 / 1000) = 16.6096, so we would use a 17-bit ripple counter to get close to 1 kHz.
+* For a ripple counter, each stage divides the input clock by 2, so the output frequency is 100 MHz / 2^N. Solving for about 1 kHz gives N = log\_2(100,000,000 / 1000) = 16.6096, so we would use a 17-bit ripple counter to get close to 1 kHz.
 
