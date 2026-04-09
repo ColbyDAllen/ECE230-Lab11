@@ -30,7 +30,7 @@ module d_ff(
     
     // Output starts low/0
     initial begin
-        Q <= 1'b0;     // Q driver
+        Q <= 1'b0;     // Q driver // non-blocking "<="
     end
     
     // On each rising clock edge, copy input D to output Q... or reset.
