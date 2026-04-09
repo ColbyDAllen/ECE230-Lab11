@@ -24,7 +24,7 @@ module d_ff(
     input D,        // input [0] sw,   // D FF D, IN
     input clk,      // input btnC,     // D FF clk, IN
     input rst,
-    output reg Q,   // output [0] led, // D FF Q, OUT       // reg = "this signal is allowed to be assigned inside an always block."
+    output reg Q,   // output [0] led, // D FF Q, OUT       "reg" to indicate memory on output // reg = "this signal is allowed to be assigned inside an always block."
     output notQ     // output [1] led  // D FF ~Q, OUT
     );
     
